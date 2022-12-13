@@ -39,9 +39,9 @@ class Window extends JFrame{
 		
 
 		Tuple position = new Tuple(10,10);
-		// passing this value to the controller
+
 		ThreadsController c = new ThreadsController(position);
-		//Let's start the game now..
+
 		c.start();
 
 		this.addKeyListener((KeyListener) new KeyboardListener());
