@@ -5,8 +5,7 @@ import java.awt.event.KeyEvent;
  	
  		public void keyPressed(KeyEvent e){
  		    switch(e.getKeyCode()){
-		    	case 39:	// -> Right 
-		    				//if it's not the opposite direction
+		    	case 39:	
 		    				if(ThreadsController.directionSnake!=2) 
 		    					ThreadsController.directionSnake=1;
 		    			  	break;
